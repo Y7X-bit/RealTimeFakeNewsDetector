@@ -1,5 +1,5 @@
 # =============================================
-# IMPORTS SECTION
+# 🧩 IMPORTS SECTION
 # =============================================
 import tkinter as tk
 from tkinter import ttk, messagebox, font
@@ -14,7 +14,7 @@ import json
 
 
 # =============================================
-# MAIN APPLICATION CLASS
+# 🧠 MAIN APPLICATION CLASS
 # =============================================
 class RealTimeFakeNewsDetector:
     def __init__(self, root):
@@ -34,7 +34,7 @@ class RealTimeFakeNewsDetector:
 
 
 # =============================================
-# CONFIGURATION SECTION
+# ⚙️ CONFIGURATION SECTION
 # =============================================
     def initialize_config(self):
         """Initialize application configuration"""
@@ -49,7 +49,7 @@ class RealTimeFakeNewsDetector:
 
 
 # =============================================
-# UI SETUP SECTION
+# 🎨 UI SETUP SECTION
 # =============================================
     def setup_ui(self):
         """Setup the main user interface"""
@@ -142,7 +142,7 @@ class RealTimeFakeNewsDetector:
 
 
 # =============================================
-# WIDGET CREATION SECTION
+# 🧱 WIDGET CREATION SECTION
 # =============================================
     def create_widgets(self):
         """Create all application widgets"""
@@ -211,7 +211,7 @@ class RealTimeFakeNewsDetector:
 
 
 # =============================================
-# TAB CONTENT CREATION SECTION
+# 🛠️ TAB CONTENT CREATION SECTION
 # =============================================
     def create_manual_tab(self):
         """Create content for manual analysis tab"""
@@ -314,7 +314,7 @@ class RealTimeFakeNewsDetector:
 
 
 # =============================================
-# UI HELPER METHODS
+# 🛠️ UI HELPER METHODS
 # =============================================
     def draw_gradient(self):
         """Draw the Windows 2000 style gradient"""
@@ -347,7 +347,7 @@ class RealTimeFakeNewsDetector:
 
 
 # =============================================
-# MODEL HANDLING SECTION
+# 📦 MODEL HANDLING SECTION
 # =============================================
     def load_model_in_background(self):
         """Load the ML model in a background thread"""
@@ -385,7 +385,7 @@ class RealTimeFakeNewsDetector:
 
 
 # =============================================
-# NEWS FETCHING SECTION
+# 🌐 NEWS FETCHING SECTION
 # =============================================
     def fetch_latest_news(self):
         """Fetch latest news from selected sources"""
@@ -432,7 +432,7 @@ class RealTimeFakeNewsDetector:
 
 
 # =============================================
-# ANALYSIS SECTION
+# 🧪 ANALYSIS SECTION
 # =============================================
     def analyze_selected_news(self, event):
         """Analyze the selected news item"""
@@ -536,7 +536,7 @@ class RealTimeFakeNewsDetector:
 
 
 # =============================================
-# UTILITY METHODS
+# 🧰 UTILITY METHODS
 # =============================================
     def clear_text(self):
         """Clear the manual analysis text fields"""
@@ -547,7 +547,7 @@ class RealTimeFakeNewsDetector:
 
 
 # =============================================
-# MAIN ENTRY POINT
+# 🚀 MAIN ENTRY POINT
 # =============================================
 if __name__ == "__main__":
     root = tk.Tk()
